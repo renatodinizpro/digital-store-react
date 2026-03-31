@@ -1,8 +1,9 @@
 import "./index.css";
+import { Link } from "react-router-dom";
 
-export default function ProductCard({ image, name, price, oldPrice }) {
+export default function ProductCard({ id, image, name, price, oldPrice }) {
   return (
-    <div className="product-card">
+    <Link to={`/product/${id}`} className="product-card">
       <img src={image} alt={name} className="product-card__image" />
 
       <div className="product-card__info">
@@ -15,6 +16,6 @@ export default function ProductCard({ image, name, price, oldPrice }) {
           <span className="product-card__price">R$ {price}</span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
