@@ -1,0 +1,65 @@
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #c92071;
+}
+
+.search {
+  flex: 1;
+}
+
+.search input {
+  width: 90%;
+  padding: 10px 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  color: #c92071;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.login {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.cart {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

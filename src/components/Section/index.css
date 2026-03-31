@@ -1,0 +1,15 @@
+.section {
+  padding: 60px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.section-content {
+  width: 100%;
+}

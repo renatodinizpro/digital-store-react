@@ -1,0 +1,14 @@
+.product-listing {
+  padding: 40px 80px;
+}
+
+.product-listing__title {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+.product-listing__grid {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
